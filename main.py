@@ -9,10 +9,6 @@ import time
 
 def linear_search(mylist, key):
     """ done. """
-    for i,v in enumerate(mylist):
-        if v == key:
-            return i
-    return -1
 
 def test_linear_search():
     """ done. """
